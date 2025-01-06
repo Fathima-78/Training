@@ -1,0 +1,54 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+A.Definition:A datatype is used to define what type of data used in the variable.
+There are two types of datatype.They are:
+1.Primitive Datatypes
+2.Non-Primitive Datatypes
+Both datatype have their own usage in javascript
+1.primitive Datatypes:
+-->Primitive Datatypes are immutable,which means they cant be changed ones assigned
+-->These store single values to the declared variable
+There are few datatypes present in the Primitive Datatypes.some of them are:
+1.String.
+strings are sequence of characters stored in double quotes(" "),single quotes(' ') or template literables(` `).
+Before this here typeof() function is used to define the datatype
+ex:
+let str1="Double quotes"
+console.log(str1,typeof(str1));
+
+let str2='single quotes'
+console.log(str2,typeof(str2))
+
+let str3='single quotes'
+console.log(str2,typeof(str2))
+2.Boolean.
+Boolean returns the True or false (for decision making like if loops and many more )
+ex:
+const bool1=true;
+console.log(bool1,typeof(bool1))
+
+const bool2=false
+console.log(bool2,typeof(bool2))
+3.Number.
+Number is a datatype which consists of int,float,decimal,exponential etc
+ex:
+let num1=10;
+console.log(num1,typeof(num1))
+
+let num2=12.890
+console.log(num2,typeof(num2))
+
+let num3=10e5
+console.log(num3,typeof(num3))
+4.Undefined.
+Undefined datatype is used at the time when a variable is declared but not initialised.
+ex:
+let a;
+console.log(a,typeof(a))
+5.Null.
+Null is basically absence of an object or an empty space.The return type of null is 'object'.
+ex:
+let x=null
+console.log(x,typeof(x))
+6.Bigint.
+Any value exceed the range of number datatypes type we consider that as bigint.
+-->any value sufix with "n" will be bigint.
