@@ -52,3 +52,7 @@ console.log(x,typeof(x))
 6.Bigint.
 Any value exceed the range of number datatypes type we consider that as bigint.
 -->any value sufix with "n" will be bigint.
+
+
+let x=(a,b)=>{return a+b;console.log(x)}
+x(1,2)
